@@ -21,8 +21,8 @@
     {"displayName": "Subsidiary", "name": "subsidiary", "type": "string"},
     {"displayName": "CustomFieldList", "name": "customFieldList", "type": "string"}
   ],
-  "Currency": [
-    {"displayName": "Name", "name": "name", "type": "string"}
+  "Contact": [
+    {"displayName": "FirstName", "name": "firstName", "type": "string"}
   ],
   "TaxItems": [
     {"displayName": "Id", "name": "internalId", "type": "string"},
