@@ -164,13 +164,13 @@ class Currency(ApiBase):
         return self.get_all_generator(last_modified_date=last_modified_date)
 
     def get_all_generator(self, page_size=200, last_modified_date=None):
-        search_field = self.ns_client.SearchStringField(searchValue='currency', operator='contains')
-        basic_search = self.ns_client.basic_search_factory('currency',
+        search_field = self.ns_client.SearchStringField(searchValue='currencyRate', operator='contains')
+        basic_search = self.ns_client.basic_search_factory('currencyRate',
                                                             recordType=search_field,
                                                            lastModifiedDate=last_modified_date)
         paginated_search = PaginatedSearch(client=self.ns_client,
                                            basic_search=basic_search,
-                                           type_name='currency',
+                                           type_name='currencyRate',
                                            pageSize=page_size)
         return self._paginated_search_to_generator(paginated_search=paginated_search)
 

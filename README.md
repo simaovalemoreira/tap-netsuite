@@ -2,7 +2,7 @@
 
 [Singer](https://www.singer.io/) tap that extracts data from a [NetSuite](https://www.netsuite.com/) database and produces JSON-formatted data following the [Singer spec](https://github.com/singer-io/getting-started/blob/master/SPEC.md).
 
-This is a forked version of [tap-netsuite (v1.5.20)](https://github.com/singer-io/tap-netsuite) that maintained by the Broadvoice BI team.
+This is a forked version of [tap-netsuite (v1.5.20)](https://github.com/hotgluexyz/tap-netsuite) that maintained by the Broadvoice BI team.
 
 Main differences from the original version:
 
